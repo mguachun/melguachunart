@@ -1,3 +1,44 @@
 #about {
     padding: 100px;
   }
+
+  #about-container {
+    margin: 200px;
+    display: flex;
+    align-items: center;
+  }
+  
+#Melissa {
+  max-width:230px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  margin: 20px;
+  }
+
+  @media screen and (max-width: 375px) {
+    #Melissa{
+      border-radius: 1000px;
+      height: 200px;
+      width: 200px;
+      display: block;
+      margin: 0px auto;
+      margin-top: 170px;
+      margin-right:auto;
+      margin-left: auto;
+      /* overflow: hidden; */
+    }
+  }
+  
+
+  .about-section{
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  @media (max-width: 75rem) {
+    .about-section {
+      height: 130vh!important;  
+    }
+  }

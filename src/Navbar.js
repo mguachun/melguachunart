@@ -18,6 +18,7 @@ function App() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#commissions">Commissions</Nav.Link>
+            <Nav.Link href="https://www.etsy.com/shop/MelGuachunArt">Etsy</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
