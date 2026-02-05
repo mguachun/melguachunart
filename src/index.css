@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: serif;
+  background: #fafafa;
+  color: #111;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+img {
+  display: block;
+}
