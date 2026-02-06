@@ -3,15 +3,17 @@ import sketch2 from '../assets/artworks/sketch-2.jpg';
 import sketch3 from '../assets/artworks/sketch-3.jpg';
 import sketch4 from '../assets/artworks/sketch-4.jpg';
 import sketch5 from '../assets/artworks/sketch-5.jpg';
-import sketch6 from '../assets/artworks/sketch-6.jpeg';  
+import sketch7 from '../assets/artworks/sketch-6.jpg';
+import sketch6 from '../assets/artworks/sketch-7.jpg';
+import sketch16 from '../assets/artworks/sketch-16.jpeg';  
 
 export const artworks = [
     {
         id: 'sketch-1',
-        title: 'Search and Destroy',
-        year: 2013,
+        title: 'All at Once',
+        year: 2014,
         image: sketch1,
-        description: "A drawing of a punk smoking a cigarette collaged over a practice state test worksheet.",
+        description: "A drawing of a girl floating with multicolor naturalized shapes.",
     },
     {
         id: 'sketch-2',
@@ -22,30 +24,45 @@ export const artworks = [
     },
      {
         id: 'sketch-3',
-        title: 'Amyl and the Sniffers',
+        title: "Mother's Little Helper",
         year: 2019,
         image: sketch3,
-        description: "A portrait of the band Amyl and the Sniffers framed by stars.",
+        description: "A portrait of a housewife smoking a cigarette, framed by a drink, a spilled bottle of pills.",
     },
      {
         id: 'sketch-4',
-        title: 'Amyl and the Sniffers',
+        title: 'Surfbort',
         year: 2019,
         image: sketch4,
-        description: "A portrait of the band Amyl and the Sniffers framed by stars.",
+        description: "A portrait of Dani Miller, the lead singer of Surfbort with the band logo.",
     },
      {
         id: 'sketch-5',
-        title: 'Amyl and the Sniffers',
-        year: 2019,
+        title: 'Stardust',
+        year: 2018,
         image: sketch5,
-        description: "A portrait of the band Amyl and the Sniffers framed by stars.",
+        description: "A woman playing guitar bending her back with stars around her.",
     },
-     {
+      {
         id: 'sketch-6',
-        title: 'Amyl and the Sniffers',
-        year: 2019,
+        title: 'The Screaming Females Life at Monty Hall',
+        year: 2018,
+        image: sketch7,
+        description: "Lead singer of the Screaming Females, Marissa Paternoster singing next to an amp with her guitar.",
+    },
+    {
+        id: 'sketch-7',
+        title: 'Predator Pose',
+        year: 2018,
         image: sketch6,
-        description: "A portrait of the band Amyl and the Sniffers framed by stars.",
+        description: "A woman posing with a crane in a predatory stance.",
+    },
+  
+     {
+         id: 'sketch-16',
+        title: 'Search and Destroy',
+        year: 2013,
+        image: sketch16,
+        description: "A drawing of a punk smoking a cigarette collaged over a practice state test worksheet.",
     }
 ]
