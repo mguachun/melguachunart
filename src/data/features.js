@@ -40,7 +40,7 @@ export const features = [
   },
   {
     id: "feature-5",
-    title: "Cool Thing",
+    title: "Let's Be in Love Tote",
     year: 2018,
     image: feature5,
     description:
