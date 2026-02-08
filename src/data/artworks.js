@@ -5,6 +5,8 @@ import sketch4 from '../assets/artworks/sketch-4.jpg';
 import sketch5 from '../assets/artworks/sketch-5.jpg';
 import sketch7 from '../assets/artworks/sketch-6.jpg';
 import sketch6 from '../assets/artworks/sketch-7.jpg';
+import sketch8 from '../assets/artworks/sketch-8.jpg';
+import sketch9 from '../assets/artworks/sketch-9.jpg';
 import sketch16 from '../assets/artworks/sketch-16.jpeg';  
 
 export const artworks = [
@@ -56,6 +58,20 @@ export const artworks = [
         year: 2018,
         image: sketch6,
         description: "A woman posing with a crane in a predatory stance.",
+    },
+       {
+        id: 'sketch-8',
+        title: 'Cool Thing',
+        year: 2019,
+        image: sketch8,
+        description: "Two portraits of Kim Gordon of Sonic Youth with static graphic design elements.",
+    },
+       {
+        id: 'sketch-9',
+        title: 'Thurston',
+        year: 2021,
+        image: sketch9,
+        description: "Portrait of Thurston Moore for By the Fire tour.",
     },
   
      {
