@@ -7,6 +7,8 @@ import sketch7 from '../assets/artworks/sketch-6.jpg';
 import sketch6 from '../assets/artworks/sketch-7.jpg';
 import sketch8 from '../assets/artworks/sketch-8.jpg';
 import sketch9 from '../assets/artworks/sketch-9.jpg';
+import sketch10 from '../assets/artworks/sketch-10.jpg';
+import sketch11 from '../assets/artworks/sketch-11.jpg';
 import sketch16 from '../assets/artworks/sketch-16.jpeg';  
 
 export const artworks = [
@@ -72,6 +74,20 @@ export const artworks = [
         year: 2021,
         image: sketch9,
         description: "Portrait of Thurston Moore for By the Fire tour.",
+    },
+      {
+        id: 'sketch-10',
+        title: 'Devil on My Back',
+        year: 2021,
+        image: sketch10,
+        description: "Portrait of Thurston Moore for By the Fire tour.",
+    },
+      {
+        id: 'sketch-11',
+        title: 'Mirrors of Angel Olsen',
+        year: 2021,
+        image: sketch11,
+        description: "Overlapping portrait of Angel Olsen .",
     },
   
      {
