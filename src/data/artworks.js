@@ -9,7 +9,8 @@ import sketch8 from '../assets/artworks/sketch-8.jpg';
 import sketch9 from '../assets/artworks/sketch-9.jpg';
 import sketch10 from '../assets/artworks/sketch-10.jpg';
 import sketch11 from '../assets/artworks/sketch-11.jpg';
-import sketch16 from '../assets/artworks/sketch-16.jpeg';  
+import sketch12 from '../assets/artworks/sketch-12.jpg';
+// import sketch16 from '../assets/artworks/sketch-16.jpg';
 
 export const artworks = [
     {
@@ -68,33 +69,40 @@ export const artworks = [
         image: sketch8,
         description: "Two portraits of Kim Gordon of Sonic Youth with static graphic design elements.",
     },
-       {
+     {
         id: 'sketch-9',
-        title: 'Thurston',
-        year: 2021,
+        title: 'Whimsy',
+        year: 2025,
         image: sketch9,
-        description: "Portrait of Thurston Moore for By the Fire tour.",
+        description: "A portrait of a woman surrounded by whimsical shapes and patterns.",
     },
-      {
+       {
         id: 'sketch-10',
-        title: 'Devil on My Back',
+        title: 'Thurston',
         year: 2021,
         image: sketch10,
         description: "Portrait of Thurston Moore for By the Fire tour.",
     },
       {
         id: 'sketch-11',
-        title: 'Mirrors of Angel Olsen',
+        title: 'Devil on My Back',
         year: 2021,
         image: sketch11,
+        description: "Portrait of Thurston Moore for By the Fire tour.",
+    },
+      {
+        id: 'sketch-12',
+        title: 'Mirrors of Angel Olsen',
+        year: 2021,
+        image: sketch12,
         description: "Overlapping portrait of Angel Olsen .",
     },
   
-     {
-         id: 'sketch-16',
-        title: 'Search and Destroy',
-        year: 2013,
-        image: sketch16,
-        description: "A drawing of a punk smoking a cigarette collaged over a practice state test worksheet.",
-    }
+    //  {
+    //      id: 'sketch-16',
+    //     title: 'Search and Destroy',
+    //     year: 2013,
+    //     image: sketch16,
+    //     description: "A drawing of a punk smoking a cigarette collaged over a practice state test worksheet.",
+    // }
 ]

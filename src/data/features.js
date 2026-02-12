@@ -6,6 +6,7 @@ import feature5 from "../assets/features/feature-5.jpg";
 import feature6 from "../assets/features/feature-6.png";
 import feature7 from "../assets/features/feature-7.jpg";
 import feature8 from "../assets/features/feature-8.jpg";
+import feature9 from "../assets/features/feature-9.jpeg";
 
 export const features = [
   {
@@ -69,6 +70,14 @@ export const features = [
     image: feature8,
     description:
       "A portrait of Amyl and the Sniffers.",
+  },
+      {
+    id: "feature-9",
+    title: "I Got Heaven",
+    year: 2025,
+    image: feature9,
+    description:
+      "A portrait of a woman surrounded by birds, darknness, ribbons, with the lyrics of 'I Got Heaven' by Mannequin Pussy.",
   },
 
 
