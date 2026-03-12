@@ -7,7 +7,7 @@ import feature6 from "../assets/features/feature-6.png";
 import feature7 from "../assets/features/feature-7.jpg";
 import feature8 from "../assets/features/feature-8.jpg";
 import feature9 from "../assets/features/feature-9.jpeg";
-
+import feature10 from "../assets/features/feature-10.jpg";
 export const features = [
   {
     id: "feature-1",
@@ -78,6 +78,14 @@ export const features = [
     image: feature9,
     description:
       "A portrait of a woman surrounded by birds, darknness, ribbons, with the lyrics of 'I Got Heaven' by Mannequin Pussy.",
+  },
+        {
+    id: "feature-10",
+    title: "New Sheriff in Town",
+    year: 2026,
+    image: feature10,
+    description:
+      "A portrait of a sheriff with a gun and a hat with brain scans and pills behind her.",
   },
 
 
