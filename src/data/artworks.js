@@ -3,13 +3,15 @@ import sketch2 from '../assets/artworks/sketch-2.jpg';
 import sketch3 from '../assets/artworks/sketch-3.jpg';
 import sketch4 from '../assets/artworks/sketch-4.jpg';
 import sketch5 from '../assets/artworks/sketch-5.jpg';
-import sketch7 from '../assets/artworks/sketch-6.jpg';
+// import sketch7 from '../assets/artworks/sketch-6.jpg';
 import sketch6 from '../assets/artworks/sketch-7.jpg';
-import sketch8 from '../assets/artworks/sketch-8.jpg';
+// import sketch8 from '../assets/artworks/sketch-8.jpg';
 import sketch9 from '../assets/artworks/sketch-9.jpg';
 import sketch10 from '../assets/artworks/sketch-10.jpg';
-import sketch11 from '../assets/artworks/sketch-11.jpg';
-import sketch12 from '../assets/artworks/sketch-12.jpg';
+// import sketch12 from '../assets/artworks/sketch-12.jpg';
+import sketch13 from '../assets/artworks/sketch-13.jpeg';
+import sketch14 from '../assets/artworks/sketch-14.jpeg';
+import sketch15 from '../assets/artworks/sketch-15.jpeg';
 // import sketch16 from '../assets/artworks/sketch-16.jpg';
 
 export const artworks = [
@@ -48,13 +50,13 @@ export const artworks = [
         image: sketch5,
         description: "A woman playing guitar bending her back with stars around her.",
     },
-      {
-        id: 'sketch-6',
-        title: 'The Screaming Females Life at Monty Hall',
-        year: 2018,
-        image: sketch7,
-        description: "Lead singer of the Screaming Females, Marissa Paternoster singing next to an amp with her guitar.",
-    },
+    //   {
+    //     id: 'sketch-6',
+    //     title: 'The Screaming Females Life at Monty Hall',
+    //     year: 2018,
+    //     image: sketch7,
+    //     description: "Lead singer of the Screaming Females, Marissa Paternoster singing next to an amp with her guitar.",
+    // },
     {
         id: 'sketch-7',
         title: 'Predator Pose',
@@ -62,12 +64,49 @@ export const artworks = [
         image: sketch6,
         description: "A woman posing with a crane in a predatory stance.",
     },
+    //    {
+    //     id: 'sketch-8',
+    //     title: 'Cool Thing',
+    //     year: 2019,
+    //     image: sketch8,
+    //     description: "Two portraits of Kim Gordon of Sonic Youth with static graphic design elements.",
+    // },
+    
        {
-        id: 'sketch-8',
-        title: 'Cool Thing',
-        year: 2019,
-        image: sketch8,
-        description: "Two portraits of Kim Gordon of Sonic Youth with static graphic design elements.",
+        id: 'sketch-10',
+        title: 'Thurston',
+        year: 2021,
+        image: sketch10,
+        description: "Portrait of Thurston Moore for By the Fire tour.",
+    },
+
+    //   {
+    //     id: 'sketch-12',
+    //     title: 'Mirrors of Angel Olsen',
+    //     year: 2021,
+    //     image: sketch12,
+    //     description: "Overlapping portrait of Angel Olsen.",
+    // },
+       {
+        id: 'sketch-13',
+        title: "She's Leaving Home",
+        year: 2017,
+        image: sketch13,
+        description: "A girl running into a puddle with a house.",
+    },
+     {
+        id: 'sketch-14',
+        title: 'Lil Guys',
+        year: 2024,
+        image: sketch14,
+        description: "A colletion of little creatures.",
+    },
+    {
+        id: 'sketch-15',
+        title: 'Miss World',
+        year: 2022,
+        image: sketch15,
+        description: "A portrait of a woman inspired by 'Miss World' by Hole.",
     },
      {
         id: 'sketch-9',
@@ -76,28 +115,7 @@ export const artworks = [
         image: sketch9,
         description: "A portrait of a woman surrounded by whimsical shapes and patterns.",
     },
-       {
-        id: 'sketch-10',
-        title: 'Thurston',
-        year: 2021,
-        image: sketch10,
-        description: "Portrait of Thurston Moore for By the Fire tour.",
-    },
-      {
-        id: 'sketch-11',
-        title: 'Devil on My Back',
-        year: 2021,
-        image: sketch11,
-        description: "Portrait of Thurston Moore for By the Fire tour.",
-    },
-      {
-        id: 'sketch-12',
-        title: 'Mirrors of Angel Olsen',
-        year: 2021,
-        image: sketch12,
-        description: "Overlapping portrait of Angel Olsen .",
-    },
-  
+
     //  {
     //      id: 'sketch-16',
     //     title: 'Search and Destroy',

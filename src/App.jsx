@@ -4,6 +4,8 @@ import Home from "./pages/Home.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+import Portraits from "./pages/Portraits.jsx";
+import Posters from "./pages/Posters.jsx";
 import "./App.css";
 
 export default function App() {
@@ -27,6 +29,8 @@ export default function App() {
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
+          <Link to="/portraits" onClick={() => setMenuOpen(false)}>Portraits</Link>
+          <Link to="/posters" onClick={() => setMenuOpen(false)}>Posters</Link>
           <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
           <a
             href="https://www.etsy.com/shop/MelGuachunArt"
@@ -42,6 +46,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/portraits" element={<Portraits />} />
+        <Route path="/posters" element={<Posters />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
