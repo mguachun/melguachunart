@@ -50,13 +50,6 @@ export const artworks = [
         image: sketch5,
         description: "A woman playing guitar bending her back with stars around her.",
     },
-    //   {
-    //     id: 'sketch-6',
-    //     title: 'The Screaming Females Life at Monty Hall',
-    //     year: 2018,
-    //     image: sketch7,
-    //     description: "Lead singer of the Screaming Females, Marissa Paternoster singing next to an amp with her guitar.",
-    // },
     {
         id: 'sketch-7',
         title: 'Predator Pose',
