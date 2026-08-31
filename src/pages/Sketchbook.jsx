@@ -1,14 +1,14 @@
 import { useState } from "react";
-import { artworks } from '../data/artworks.js';
+import { sketches } from '../data/sketches.js';
 
-export default function Gallery() {
+export default function Sketchbook() {
   const [selectedArtId, setSelectedArtId] = useState(null);
 
-  const selectedArt = artworks.find((art) => art.id === selectedArtId);
+  const selectedArt = sketches.find((sketch) => sketch.id === selectedArtId);
 
   return (
     <>
-      <h2>Gallery</h2>
+      <h2>Sketchbook</h2>
 
       <div
         style={{
@@ -17,12 +17,12 @@ export default function Gallery() {
           gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
         }}
       >
-        {artworks.map((art) => (
-          <div key={art.id}>
+        {sketches.map((sketch) => (
+          <div key={sketch.id}>
             <img
-              src={art.image}
-              alt={art.title}
-              onClick={() => setSelectedArtId(art.id)}
+              src={sketch.image}
+              alt={sketch.title}
+              onClick={() => setSelectedArtId(sketch.id)}
               draggable={false}
               onDragStart={(e) => e.preventDefault()}
               style={{
@@ -33,7 +33,7 @@ export default function Gallery() {
               }}
             />
             <div style={{ textAlign: "center", fontSize: "1rem" }}>
-              {art.title}
+              {sketch.title}
             </div>
           </div>
         ))}

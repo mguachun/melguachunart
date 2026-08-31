@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import Home from "./pages/Home.jsx";
-import Gallery from "./pages/Gallery.jsx";
+import Sketchbook from "./pages/Sketchbook.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Portraits from "./pages/Portraits.jsx";
@@ -28,7 +28,7 @@ export default function App() {
 
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
+          <Link to="/sketchbook" onClick={() => setMenuOpen(false)}>Sketchbook</Link>
           <Link to="/portraits" onClick={() => setMenuOpen(false)}>Portraits</Link>
           <Link to="/posters" onClick={() => setMenuOpen(false)}>Posters</Link>
           <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
@@ -45,7 +45,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/sketchbook" element={<Sketchbook />} />
         <Route path="/portraits" element={<Portraits />} />
         <Route path="/posters" element={<Posters />} />
         <Route path="/about" element={<About />} />
